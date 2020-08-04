@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/et_design"
+    android:focusable="false"
+    app:cardCornerRadius="10dp"
+    android:focusableInTouchMode="false"
+    android:layoutDirection="rtl"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="ltr"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_user"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/persoicon" />
+
+            <TextView
+                android:id="@+id/txtUserName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="User name"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#0894f8"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_tweet_date"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="2015-12-11"
+                android:layout_marginEnd="4dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="12dp" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_tweet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="u write ur post here dude"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#040101"
+            android:layout_margin="8dp"
+            android:textSize="18dp" />
+
+        <ImageView
+
+            android:id="@+id/tweet_picture"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:layout_margin="1dp"
+            android:src="@drawable/street" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "43675105247",
+    "firebase_url": "https://happymeforeverekrjewkjtwe.firebaseio.com",
+    "project_id": "happymeforeverekrjewkjtwe",
+    "storage_bucket": "happymeforeverekrjewkjtwe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43675105247:android:e78fce683f051407aeb66a",
+        "android_client_info": {
+          "package_name": "com.noor.newease"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "43675105247-m4h4kiepha7hdqivmica4t37rug504q6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.noor.newease",
+            "certificate_hash": "c16c5d23be4d8e184efb2ddde9ff15af9ed0db9b"
+          }
+        },
+        {
+          "client_id": "43675105247-9esou622e9ac6hs7okd0eon5lrec0ftv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.noor.newease",
+            "certificate_hash": "91880c39b2b51ddcd5a34f48cfcc03fb757ab90d"
+          }
+        },
+        {
+          "client_id": "43675105247-i3297261f2ahfdsp3ir7rqhke6gj2u69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfKga2tgc8ebhOacvaUjIPPWLbRqCWd4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "43675105247-i3297261f2ahfdsp3ir7rqhke6gj2u69.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43675105247:android:9264ccea89cf7b6baeb66a",
+        "android_client_info": {
+          "package_name": "com.noor.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "43675105247-06jorm0f52821m2ns2jft3c1bp811anr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.noor.test",
+            "certificate_hash": "91880c39b2b51ddcd5a34f48cfcc03fb757ab90d"
+          }
+        },
+        {
+          "client_id": "43675105247-i3297261f2ahfdsp3ir7rqhke6gj2u69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfKga2tgc8ebhOacvaUjIPPWLbRqCWd4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "43675105247-i3297261f2ahfdsp3ir7rqhke6gj2u69.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
